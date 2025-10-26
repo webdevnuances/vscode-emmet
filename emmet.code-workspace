@@ -7,7 +7,14 @@
   "settings": {
     "emmet.showExpandedAbbreviation": "always",
     "emmet.triggerExpansionOnTab": true,
+
     "emmet.showSuggestionsAsSnippets": true,
-    "editor.snippetSuggestions": "top"
+    "editor.snippetSuggestions": "top",
+    "emmet.extensionsPath": ["./emmet"],
+    "emmet.syntaxProfiles": { "html": { "filters": "bem" } },
+    "emmet.preferences": {
+      "bem.elementSeparator": "__",
+      "bem.modifierSeparator": "--"
+    }
   }
 }

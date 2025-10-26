@@ -1,2 +1,16 @@
 .emmet-example {
+  margin-top: 10px;
+  margin-top: 10%;
+  margin-top: 10em;
+  margin-top: 10ex;
+  line-height: 2;
+  font-weight: 500;
+
+  color: #111;
+  color: 1px #121212;
+  color: #123;
+
+  padding: 10px !important;
+
+  color: black;
 }

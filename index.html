@@ -6,21 +6,25 @@
     <title>Document</title>
   </head>
   <body>
-    <div></div>
+    <!-- div  -->
     <div></div>
 
+    <!-- div>ul  -->
     <div>
       <ul></ul>
     </div>
 
+    <!-- div+span  -->
     <div></div>
     <span></span>
 
+    <!-- div>ul^span -->
     <div>
       <ul></ul>
     </div>
     <span></span>
 
+    <!-- div>ul>li^^div -->
     <div>
       <ul>
         <li></li>
@@ -28,12 +32,14 @@
     </div>
     <div></div>
 
+    <!-- div>li*3 -->
     <div>
       <li></li>
       <li></li>
       <li></li>
     </div>
 
+    <!-- main>(header>nav>li*3)+footer -->
     <main>
       <header>
         <nav>
@@ -45,6 +51,7 @@
       <footer></footer>
     </main>
 
+    <!-- main>header>nav>li*3+footer -->
     <main>
       <header>
         <nav>
@@ -56,6 +63,7 @@
       </header>
     </main>
 
+    <!-- main>(header>(nav>li*3)+img)+footer -->
     <main>
       <header>
         <nav>
@@ -68,34 +76,43 @@
       <footer></footer>
     </main>
 
+    <!-- section#post+article.container -->
     <section id="post"></section>
     <article class="container"></article>
 
+    <!-- section#post.container -->
     <section id="post" class="container"></section>
 
+    <!-- button[onclick="showPanel()" ondblclick="hidePanel()"] -->
     <button onclick="showPanel()" ondblclick="hidePanel()"></button>
 
+    <!-- div{div content} -->
     <div>div content</div>
 
+    <!-- div>p>{beginning}+strong{middle}+{end} -->
     <div>
       <p>beginning<strong>middle</strong>end</p>
     </div>
 
+    <!-- div.container$*2 -->
     <div class="container1"></div>
     <div class="container2"></div>
 
+    <!-- div>li{item$}*3 -->
     <div>
       <li>item1</li>
       <li>item2</li>
       <li>item3</li>
     </div>
 
+    <!-- div>li{item$$$}*3 -->
     <div>
       <li>item001</li>
       <li>item002</li>
       <li>item003</li>
     </div>
 
+    <!-- div>li{item$@-}*4 -->
     <div>
       <li>item4</li>
       <li>item3</li>
@@ -103,6 +120,7 @@
       <li>item1</li>
     </div>
 
+    <!-- div>li{item$@-2}*4 -->
     <div>
       <li>item5</li>
       <li>item4</li>

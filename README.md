@@ -1,4 +1,4 @@
-# Learn Emmet in VS Code from 0 to 100 — Customization and Usage (2025)
+# Learn Emmet in VS Code from 0 to 100 — Customization and Usage
 
 Do you want to learn Emmet in HTML and CSS but don’t know how to customize it the way you want or aren’t familiar with its syntax? In this video, I’ll give a clear demonstration on how to configure and use it in the VS Code editor.
 

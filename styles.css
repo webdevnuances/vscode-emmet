@@ -1,16 +1,27 @@
 .emmet-example {
+  /* mt10 */
   margin-top: 10px;
+  /* mt10p */
   margin-top: 10%;
+  /* mt10e */
   margin-top: 10em;
+  /* mt10x */
   margin-top: 10ex;
+  /* lh2 */
   line-height: 2;
+  /* fw500 */
   font-weight: 500;
 
+  /* c#1 */
   color: #111;
+  /* c1#123 */
   color: 1px #121212;
+  /* c#123 */
   color: #123;
 
+  /* p10! */
   padding: 10px !important;
 
+  /* cb */
   color: black;
 }
